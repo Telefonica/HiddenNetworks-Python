@@ -1,0 +1,12 @@
+computer_name,computer_ip,usbdevice_name,usbdevice_id
+PC001,192.168.1.16,SanDisk Cruzer Blade USB Device,{1df90487-d45c-5a58-8509-dff4fae7bca6}
+PC001,192.168.1.16,Kingston DataTraveler G3 USB Device,{2057d6e6-7725-52d5-8d5e-3fdab3357470}
+SRV0001,192.168.1.14,Kingston DataTraveler G3 USB Device,{2057d6e6-7725-52d5-8d5e-3fdab3357470}
+SRV0001,192.168.1.14,SanDisk Cruzer Blade USB Device,{1df90487-d45c-5a58-8509-dff4fae7bca6}
+SRV0001,192.168.1.14,TOSHIBA TransMemory USB Device,{53bcd3ca-866c-562f-b50b-c4f9081fa2e9}
+PC004,192.168.1.29,Kingston DataTraveler G3 USB Device,{2057d6e6-7725-52d5-8d5e-3fdab3357470}
+PC004,192.168.1.29,SanDisk Cruzer Blade USB Device,{1df90487-d45c-5a58-8509-dff4fae7bca6}
+PC004,192.168.1.29,TOSHIBA TransMemory USB Device,{53bcd3ca-866c-562f-b50b-c4f9081fa2e9}
+PC008,192.168.1.28,Kingston DataTraveler G3 USB Device,{2057d6e6-7725-52d5-8d5e-3fdab3357470}
+PC008,192.168.1.28,TOSHIBA TransMemory USB Device,{53bcd3ca-866c-562f-b50b-c4f9081fa2e9}
+PC005,192.168.1.30,TOSHIBA TransMemory USB Device,{53bcd3ca-866c-562f-b50b-c4f9081fa2e9}

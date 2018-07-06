@@ -11,3 +11,5 @@ Functionality: There are three main operations. The first is to extract informat
 •	Draw the network with a CSV file (“Plot single CSV”). Through this option, the network generated through the application beforehand can be drawn directly.
 
 Thanks!
+
+Created and developed by IdeasLocas CDO Team.

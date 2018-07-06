@@ -12,4 +12,4 @@ Functionality: There are three main operations. The first is to extract informat
 
 Thanks!
 
-Created and developed by IdeasLocas CDO Team.
+by IdeasLocas CDO Team.

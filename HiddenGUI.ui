@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>787</width>
-    <height>569</height>
+    <height>515</height>
    </rect>
   </property>
   <property name="font">
@@ -22,48 +22,15 @@
    <iconset>
     <normaloff>HNLogo.png</normaloff>HNLogo.png</iconset>
   </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
   <widget class="QPushButton" name="GetLocalRegistryButton">
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>270</y>
-     <width>151</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <family>Telefonica</family>
-    </font>
-   </property>
-   <property name="text">
-    <string>Get local registry info</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="GetRemoteRegistryWinRMButton">
-   <property name="geometry">
-    <rect>
-     <x>210</x>
-     <y>470</y>
-     <width>171</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <family>Telefonica</family>
-    </font>
-   </property>
-   <property name="text">
-    <string>Retrieve remote info</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="NewProjectButton">
-   <property name="geometry">
-    <rect>
-     <x>10</x>
-     <y>90</y>
-     <width>131</width>
+     <y>250</y>
+     <width>191</width>
      <height>41</height>
     </rect>
    </property>
@@ -73,14 +40,53 @@
     </font>
    </property>
    <property name="text">
+    <string>Get USB local registry data</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="GetRemoteRegistryWinRMButton">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>230</y>
+     <width>91</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Telefonica</family>
+    </font>
+   </property>
+   <property name="text">
+    <string>Retrieve data</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="NewProjectButton">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>90</y>
+     <width>131</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Telefonica</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
     <string>New Project</string>
    </property>
   </widget>
   <widget class="QPushButton" name="ExitButton">
    <property name="geometry">
     <rect>
-     <x>670</x>
-     <y>510</y>
+     <x>680</x>
+     <y>20</y>
      <width>101</width>
      <height>31</height>
     </rect>
@@ -99,8 +105,8 @@
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>210</x>
-     <y>230</y>
+     <x>240</x>
+     <y>220</y>
      <width>171</width>
      <height>31</height>
     </rect>
@@ -121,7 +127,7 @@
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>230</y>
+     <y>220</y>
      <width>171</width>
      <height>31</height>
     </rect>
@@ -156,7 +162,7 @@
     <enum>Qt::ActionsContextMenu</enum>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: rgb(245, 245, 245);</string>
+    <string notr="true">background-color: rgb(214, 214, 214);</string>
    </property>
    <property name="readOnly">
     <bool>true</bool>
@@ -166,7 +172,7 @@
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>150</y>
+     <y>160</y>
      <width>131</width>
      <height>41</height>
     </rect>
@@ -234,7 +240,7 @@
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: rgb(245, 245, 245);</string>
+    <string notr="true">background-color: rgb(214, 214, 214);</string>
    </property>
    <property name="readOnly">
     <bool>true</bool>
@@ -255,7 +261,7 @@
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: rgb(245, 245, 245);</string>
+    <string notr="true">background-color: rgb(214, 214, 214);</string>
    </property>
    <property name="readOnly">
     <bool>true</bool>
@@ -276,7 +282,7 @@
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: rgb(245, 245, 245);</string>
+    <string notr="true">background-color: rgb(214, 214, 214);</string>
    </property>
    <property name="readOnly">
     <bool>true</bool>
@@ -339,9 +345,9 @@
   <widget class="Line" name="line">
    <property name="geometry">
     <rect>
-     <x>90</x>
+     <x>20</x>
      <y>210</y>
-     <width>601</width>
+     <width>741</width>
      <height>16</height>
     </rect>
    </property>
@@ -352,8 +358,8 @@
   <widget class="QLabel" name="ProjectJSONFileNameLabel_2">
    <property name="geometry">
     <rect>
-     <x>10</x>
-     <y>390</y>
+     <x>20</x>
+     <y>380</y>
      <width>111</width>
      <height>16</height>
     </rect>
@@ -371,7 +377,7 @@
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>340</y>
+     <y>330</y>
      <width>81</width>
      <height>16</height>
     </rect>
@@ -388,9 +394,9 @@
   <widget class="QLineEdit" name="USBDetectedText">
    <property name="geometry">
     <rect>
-     <x>120</x>
-     <y>390</y>
-     <width>41</width>
+     <x>130</x>
+     <y>380</y>
+     <width>71</width>
      <height>20</height>
     </rect>
    </property>
@@ -400,7 +406,7 @@
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: rgb(245, 245, 245);</string>
+    <string notr="true">background-color: rgb(214, 214, 214);</string>
    </property>
    <property name="readOnly">
     <bool>true</bool>
@@ -410,8 +416,8 @@
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>360</y>
-     <width>151</width>
+     <y>350</y>
+     <width>191</width>
      <height>20</height>
     </rect>
    </property>
@@ -421,7 +427,7 @@
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: rgb(245, 245, 245);</string>
+    <string notr="true">background-color: rgb(214, 214, 214);</string>
    </property>
    <property name="readOnly">
     <bool>true</bool>
@@ -430,9 +436,9 @@
   <widget class="QPushButton" name="LoadComputerListButton">
    <property name="geometry">
     <rect>
-     <x>210</x>
-     <y>270</y>
-     <width>171</width>
+     <x>240</x>
+     <y>250</y>
+     <width>91</width>
      <height>31</height>
     </rect>
    </property>
@@ -442,15 +448,15 @@
     </font>
    </property>
    <property name="text">
-    <string>Load list of computers</string>
+    <string>Load computers</string>
    </property>
   </widget>
   <widget class="QLineEdit" name="ComputerFileListShow">
    <property name="geometry">
     <rect>
-     <x>210</x>
-     <y>330</y>
-     <width>171</width>
+     <x>280</x>
+     <y>290</y>
+     <width>491</width>
      <height>20</height>
     </rect>
    </property>
@@ -460,7 +466,7 @@
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: rgb(245, 245, 245);</string>
+    <string notr="true">background-color: rgb(214, 214, 214);</string>
    </property>
    <property name="text">
     <string/>
@@ -472,10 +478,10 @@
   <widget class="Line" name="line_2">
    <property name="geometry">
     <rect>
-     <x>180</x>
-     <y>250</y>
+     <x>210</x>
+     <y>230</y>
      <width>20</width>
-     <height>241</height>
+     <height>271</height>
     </rect>
    </property>
    <property name="orientation">
@@ -488,7 +494,7 @@
      <x>640</x>
      <y>90</y>
      <width>131</width>
-     <height>41</height>
+     <height>51</height>
     </rect>
    </property>
    <property name="font">
@@ -503,9 +509,9 @@
   <widget class="QLineEdit" name="LoginUserInput">
    <property name="geometry">
     <rect>
-     <x>250</x>
-     <y>400</y>
-     <width>131</width>
+     <x>380</x>
+     <y>260</y>
+     <width>111</width>
      <height>20</height>
     </rect>
    </property>
@@ -516,9 +522,9 @@
   <widget class="QLineEdit" name="PasswordUserInput">
    <property name="geometry">
     <rect>
-     <x>250</x>
-     <y>430</y>
-     <width>131</width>
+     <x>550</x>
+     <y>260</y>
+     <width>111</width>
      <height>20</height>
     </rect>
    </property>
@@ -532,8 +538,8 @@
   <widget class="QLabel" name="label_6">
    <property name="geometry">
     <rect>
-     <x>220</x>
-     <y>400</y>
+     <x>350</x>
+     <y>260</y>
      <width>31</width>
      <height>16</height>
     </rect>
@@ -550,8 +556,8 @@
   <widget class="QLabel" name="label_7">
    <property name="geometry">
     <rect>
-     <x>200</x>
-     <y>430</y>
+     <x>500</x>
+     <y>260</y>
      <width>51</width>
      <height>16</height>
     </rect>
@@ -568,9 +574,9 @@
   <widget class="QLabel" name="label_8">
    <property name="geometry">
     <rect>
-     <x>250</x>
-     <y>380</y>
-     <width>101</width>
+     <x>470</x>
+     <y>230</y>
+     <width>121</width>
      <height>16</height>
     </rect>
    </property>
@@ -580,16 +586,16 @@
     </font>
    </property>
    <property name="text">
-    <string>Domain credentials</string>
+    <string>User domain credentials</string>
    </property>
   </widget>
   <widget class="QListWidget" name="listWidgetLocalComputer">
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>420</y>
-     <width>151</width>
-     <height>81</height>
+     <y>410</y>
+     <width>191</width>
+     <height>91</height>
     </rect>
    </property>
    <property name="font">
@@ -598,45 +604,27 @@
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: rgb(245, 245, 245);</string>
+    <string notr="true">background-color: rgb(214, 214, 214);</string>
    </property>
   </widget>
   <widget class="QListWidget" name="listWidgetRemoteOutput">
    <property name="geometry">
     <rect>
-     <x>400</x>
-     <y>260</y>
-     <width>371</width>
-     <height>241</height>
+     <x>240</x>
+     <y>320</y>
+     <width>531</width>
+     <height>181</height>
     </rect>
    </property>
    <property name="font">
     <font>
      <family>Telefonica</family>
-     <weight>75</weight>
-     <bold>true</bold>
+     <weight>50</weight>
+     <bold>false</bold>
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: rgb(245, 245, 245);</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_9">
-   <property name="geometry">
-    <rect>
-     <x>730</x>
-     <y>240</y>
-     <width>46</width>
-     <height>13</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <family>Telefonica</family>
-    </font>
-   </property>
-   <property name="text">
-    <string>Output</string>
+    <string notr="true">background-color: rgb(214, 214, 214);</string>
    </property>
   </widget>
   <widget class="QPushButton" name="DrawButtonSingleCSV">
@@ -645,7 +633,7 @@
      <x>640</x>
      <y>150</y>
      <width>131</width>
-     <height>41</height>
+     <height>51</height>
     </rect>
    </property>
    <property name="font">
@@ -662,7 +650,7 @@
     <rect>
      <x>10</x>
      <y>10</y>
-     <width>401</width>
+     <width>321</width>
      <height>41</height>
     </rect>
    </property>
@@ -676,8 +664,8 @@
   <widget class="QPushButton" name="AboutButton">
    <property name="geometry">
     <rect>
-     <x>720</x>
-     <y>10</y>
+     <x>610</x>
+     <y>20</y>
      <width>51</width>
      <height>31</height>
     </rect>
@@ -694,8 +682,8 @@
   <widget class="QRadioButton" name="radioButtonSaveCSV">
    <property name="geometry">
     <rect>
-     <x>10</x>
-     <y>310</y>
+     <x>20</x>
+     <y>300</y>
      <width>141</width>
      <height>17</height>
     </rect>
@@ -707,8 +695,8 @@
   <widget class="QLabel" name="label_10">
    <property name="geometry">
     <rect>
-     <x>210</x>
-     <y>310</y>
+     <x>240</x>
+     <y>290</y>
      <width>31</width>
      <height>16</height>
     </rect>

@@ -19,6 +19,9 @@
 
 **Reports**. PDF reports with all the information embeded about the USB drive and the graph generated.
 
+**USB brand and model (visual)**. An image of the usb device is shown using the [bbid](https://github.com/ostrolucky/Bulk-Bing-Image-downloader) tool to search for it on the Internet. 
+
+
 Thanks!
 
 by IdeasLocas CDO Team.

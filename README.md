@@ -3,7 +3,7 @@
 
 <img src="https://github.com/ElevenPaths/HiddenNetworks-Python/blob/master/README_data/HiddenNetworks_Graph_USB.png" width="900">
 
-**Hidden Networks** is a new concept test (based on the paper of the same name), that is programmed using Python 3.4. It facilitates the task of analysing local and remote machines (within a domain, using WMI) in searching for traces of connections by USB devices. With the information that is collected, this concept test draws a network that shows the path or jumps between such USB devices and the computers to which they have been connected. In this way, an alternative network is depicted. The same application will generate networks (one for each device) and all of the collected information is stored in two files (.CSV and .JSON) for subsequent analysis and exportation. 
+**Hidden Networks** is a new concept test (based on the [paper](https://github.com/ElevenPaths/HiddenNetworks-Python/blob/master/whitepaper/HiddenNetworks_Paper.pdf) of the same name), that is programmed using Python 3.4. It facilitates the task of analysing local and remote machines (within a domain, using WMI) in searching for traces of connections by USB devices. With the information that is collected, this concept test draws a network that shows the path or jumps between such USB devices and the computers to which they have been connected. In this way, an alternative network is depicted. The same application will generate networks (one for each device) and all of the collected information is stored in two files (.CSV and .JSON) for subsequent analysis and exportation. 
 
 <img src="https://github.com/ElevenPaths/HiddenNetworks-Python/blob/master/README_data/HiddenNetworks_NewFrontend.png" width="900">
 
